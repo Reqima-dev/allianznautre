@@ -172,19 +172,25 @@
     max-width: 500px;
   }
 }
+
 @media screen and (max-width: 590px) {
-  
   .sliderN .content {
     left: 6rem;
   }
-  header {
-    margin-left: 3rem !important;
-  }
-  header .logo img {
-    width: 150px;
+  .open__nav {
+    margin-right: 0;
   }
   header nav {
     right: 44px;
+  }
+  header {
+    margin: 0 2rem;
+  }
+
+  header.window-scroll {
+    display: flex;
+    gap: 50px;
+    padding: 0 2rem;
   }
 }
 
