@@ -1,0 +1,270 @@
+@media screen and (max-width: 1228px) {
+  header {
+    max-width: 1080px;
+  }
+  header nav {
+    flex-direction: column;
+    gap: 3rem;
+    position: absolute;
+    width: 342px;
+    height: 1101px;
+    background-color: rgba(37, 32, 26, 0.95);
+    right: 0;
+    display: none;
+  }
+
+  header nav .menu {
+    flex-direction: column;
+    gap: 3.5rem;
+    margin-right: 8rem;
+    position: relative;
+    top: 17rem;
+    left: 3rem;
+  }
+
+  header .menu li {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  header .menu li a {
+    font-size: 20px !important;
+  }
+  nav .resaux {
+    width: 70%;
+    position: relative;
+    top: 16rem;
+  }
+  nav .resaux a {
+    font-size: 20px !important;
+  }
+
+  .open__nav {
+    position: relative;
+    display: block !important;
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: -1;
+    margin-right: 7rem;
+  }
+  .close__nav {
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    font-size: 50px;
+    border: none;
+    position: absolute;
+    right: -70px;
+    top: -40px;
+  }
+
+  #dialog.show {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header.window-scroll .menu li a {
+    color: #fff;
+  }
+  header.window-scroll .resaux a {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1131px) {
+  header {
+    max-width: 1000px;
+  }
+  header nav {
+    right: 15px;
+  }
+  .sliderN {
+    height: 657px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  header {
+    max-width: 900px;
+  }
+
+  .sliderN .content h1 {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 0px var(--color-jaune-aliance);
+  }
+
+  .sliderN .content p {
+    text-shadow: 1px 1px 10px #000;
+    font-weight: 400;
+  }
+
+  .lines {
+    bottom: 63px;
+    left: 5rem;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  header {
+    max-width: 800px;
+  }
+}
+@media screen and (max-width: 840px) {
+  header {
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    max-width: 600px;
+  }
+  #slideLargeFormat {
+    display: none;
+  }
+  #slideFormat750px {
+    display: block;
+  }
+  .sliderN {
+    width: 750px;
+    height: 657px;
+  }
+  .sliderN img {
+    top: 0;
+    height: 657px;
+    object-fit: cover;
+    object-position: center 15%;
+  }
+  .sliderN .content {
+    top: 14rem;
+  }
+  .sliderN .content h1 {
+    letter-spacing: 3px;
+  }
+  .prev_button {
+    left: 3rem;
+  }
+  .suiv_button {
+    right: 3rem;
+  }
+  header nav {
+    height: 1645px !important;
+  }
+
+  header .menu li {
+    height: 30px;
+  }
+  header nav .menu,
+  nav .resaux {
+    top: 19rem;
+  }
+  .sliderN .content p {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 590px) {
+  
+  .sliderN .content {
+    left: 6rem;
+  }
+  header {
+    margin-left: 3rem !important;
+  }
+  header .logo img {
+    width: 150px;
+  }
+  header nav {
+    right: 44px;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .prev_button,
+  .suiv_button {
+    display: none;
+  }
+  .sliderN .content p {
+    font-size: 20px;
+  }
+  .sliderN .content {
+    left: 4rem;
+  }
+  .sliderN .content h1 {
+    font-size: 2rem;
+  }
+  .sliderN .content {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .sliderN .content p {
+    width: 300px;
+  }
+  .sliderN .content h1 {
+    font-size: 1.5rem;
+  }
+  .sliderN .content a {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .sliderN .content {
+    width: 40vw;
+  }
+  .sliderN .content h1 {
+    font-size: 1rem;
+  }
+  .sliderN .content {
+    left: 3rem;
+  }
+  .open__nav {
+    margin-right: 5rem;
+  }
+}
+
+@media screen and (max-width: 351px) {
+  .sliderN .content {
+    left: 2rem;
+  }
+  .sliderN .content p {
+    font-size: 17px;
+  }
+  .sliderN .content p {
+    width: 200px;
+  }
+  .sliderN .content a {
+    padding: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .sliderN {
+    width: 750px;
+    height: 667px;
+  }
+  .sliderN img {
+    height: 667px;
+  }
+
+  header .menu li {
+    height: 27px;
+  }
+  header nav .menu {
+    top: 19rem;
+  }
+  nav .resaux {
+    top: 20rem;
+  }
+}

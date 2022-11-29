@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>AllianzNature - Beauté & Cosmétiques</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!------ HEROv slider-container-->
+    <div class="slider-container">
+      <div class="sliderN">
+        <img src="image/slide1-750pxX1500px.jpg" id="slideFormat750px" />
+        <img src="image/Slide1.jpg" id="slideLargeFormat" />
+        <div class="content">
+          <h1>AllianzNature</h1>
+          <p>
+            Première marque Béninoise de cosmétiques naturels et éthiques avec
+            des savons artisanaux aux formes irrégulières et atypiques dotées
+            d'une légère touche artistique.
+          </p>
+        </div>
+      </div>
+      <div class="sliderN">
+        <img src="image/slide2-750pxX1500px.jpg" id="slideFormat750px" />
+        <img src="image/Slide2.jpg" id="slideLargeFormat" />
+        <div class="content">
+          <h1>Le Saviez-vous ?</h1>
+          <p>
+            Nous disposons d'une GAMME complète de produits de soins corporels
+            conçue pour révéler la beauté de la peau noire.
+          </p>
+        </div>
+      </div>
+      <div class="sliderN">
+        <img src="image/slide3-750pxX1500px.jpg" id="slideFormat750px" />
+        <img src="image/Slide3.jpg"  id="slideLargeFormat"/>
+        <div class="content">
+          <h1>Nos Produits</h1>
+          <p>
+            sont fabriqués avec des huiles et beurres végétaux non comédogènes
+            alors dites bye-bye aux comédons.
+          </p>
+          <a href="produits.html">voir plus</a>
+        </div>
+      </div>
+      <div class="sliderN">
+        <img src="image/slide4-750pxX1500px.jpg" id="slideFormat750px" />
+        <img src="image/Slide4.jpg" id="slideLargeFormat" />
+        <div class="content">
+          <h1>Je connais ma peau</h1>
+          <p>prenez 5min et faites le diagnostic de votre peau</p>
+          <a href="services.html">voir plus</a>
+        </div>
+      </div>
+
+      <div class="prev_button" onclick="plusSlide(-1)">&#10094;</div>
+      <div class="suiv_button" onclick="plusSlide(1)">&#10095;</div>
+
+      <div class="lines">
+        <div class="line" onclick="currentSlide(1)"></div>
+        <div class="line" onclick="currentSlide(2)"></div>
+        <div class="line" onclick="currentSlide(3)"></div>
+        <div class="line" onclick="currentSlide(4)"></div>
+      </div>
+    </div>
+    <!------ END HERO slider-container-->
+
+    <!---- HEADER ----->
+
+    <header>
+      <a href="index.html" class="logo">
+        <img src="image/LOGO C.png" alt="" />
+      </a>
+      <nav id="dialog">
+        <ul class="menu">
+          <button class="close__nav" onClick="closeDialog()">
+            <i class="bx bx-x" style="color: #ffffff"></i>
+          </button>
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="about.html">Notre Marque</a></li>
+          <li><a href="produits.html">Produits</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="magzine.html">Magazine</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="resaux">
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#"><i class="bx bxl-pinterest"></i></a>
+        </div>
+      </nav>
+
+      <button class="open__nav" onClick="showDialog()">
+        <i class="bx bx-menu" style="color: #ffffff"></i>
+      </button>
+    </header>
+
+
+    <!----- JAVASCRIPT files------>
+    <script src="JS/app.js"></script>
+  </body>
+</html>
