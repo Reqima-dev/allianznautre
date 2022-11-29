@@ -73,6 +73,11 @@
   header.window-scroll .resaux a {
     color: #fff;
   }
+
+  .about-section {
+    max-width: 970px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1131px) {
@@ -106,6 +111,14 @@
     bottom: 63px;
     left: 5rem;
   }
+
+  .about-section {
+    max-width: 860px;
+  }
+
+  .about-section .about_info {
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 940px) {
@@ -135,10 +148,41 @@
   .best2 .bestINfors {
     text-align: end;
   }
+
+  .about-section {
+    flex-direction: column;
+  }
+  .about-section-2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column-reverse !important;
+  }
+  .about-section .about_info,
+  .about-section .about_image {
+    width: 85vw;
+  }
+
+  .about-section .about_image {
+    height: 430px;
+  }
+
+  .about-section .about2 {
+    top: 1rem;
+  }
 }
+
 @media screen and (max-width: 840px) {
   header {
     max-width: 700px;
+  }
+  .ventesFlash {
+    flex-wrap: wrap;
+    padding: 41px 0rem;
+    height: max-content;
+  }
+
+  .containerAbot {
+    padding: 2rem;
   }
 }
 
@@ -322,5 +366,4 @@
     font-size: 10px;
     padding: 2px;
   }
-
 }
