@@ -182,7 +182,10 @@
   }
 
   .containerAbot {
-    padding: 2rem;
+    padding: 0;
+  }
+  .about-section .about_info {
+    padding: 2rem 0;
   }
 }
 
@@ -237,11 +240,27 @@
     font-size: 12px;
     padding: 1rem 0;
   }
+
+  .bestProducts h2 span {
+    font-size: 75px;
+  }
+  .bestProducts .distributeurs {
+    width: 750px !important;
+  }
+  .bestProducts .distributeurs {
+    padding: 130px 98px 130px 98px;
+  }
 }
 
 @media screen and (max-width: 650px) {
   header {
     max-width: 500px;
+  }
+  .bestProducts .distributeurs {
+    width: 650px !important;
+  }
+  .bestProducts .distributeurs {
+    padding: 120px 28px 130px 50px;
   }
 }
 
@@ -268,6 +287,13 @@
   .topHead .button_messages {
     gap: 1rem;
   }
+
+  .bestProducts .distributeurs {
+    padding: 130px 60px 130px 60px;
+  }
+  .bestProducts h2 span {
+    font-size: 55px;
+  }
 }
 
 @media screen and (max-width: 521px) {
@@ -286,6 +312,13 @@
   }
   .sliderN .content {
     width: 50vw;
+  }
+  .bestProducts .distributeurs {
+    width: 521px !important;
+    height: 45vh;
+  }
+  .bestProducts .distributeurs {
+    padding: 60px 90px 40px 40px;
   }
 }
 
@@ -326,6 +359,9 @@
   .open__nav {
     margin-right: 5rem;
   }
+  .bestProducts h2 span {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -345,6 +381,12 @@
   }
   nav .resaux {
     top: 20rem;
+  }
+  .bestProducts .distributeurs {
+    width: 349px !important;
+  }
+  .bestProducts .distributeurs {
+    padding: 20px 20px 20px 20px;
   }
 }
 

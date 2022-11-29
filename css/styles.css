@@ -654,12 +654,6 @@ header.window-scroll .open__nav i {
   top: 1rem;
   position: relative;
 }
-.bestProducts .distributeurs .bestINfors h2 span {
-  -webkit-text-stroke: 1px black;
-  font-weight: 500;
-  font-family: var(--font-family2);
-}
-
 .bestProducts h2 {
   font-weight: 300;
   font-size: 25px;
@@ -827,21 +821,120 @@ header.window-scroll .open__nav i {
 }
 
 /* --- BRANDIND Numéro 2---------*/
-.bestProducts .testimonials {
+.bestProducts .brand {
   background-image: url(../image/banner3.jpg);
 }
-.bestProducts .testimonials h2 {
+.bestProducts .brand h2 {
   color: var(--color-primary-white);
 }
 
-.bestProducts .testimonials2 {
+.bestProducts .brand2 {
   background-image: url(../image/luchiana7.webp);
 }
 
-.bestProducts .testimonials a {
+.bestProducts .brand a {
   color: var(--color-primary-white);
   border: 1px solid var(--color-primary-white);
   transition: var(--transition);
   font-size: 17px;
   padding: 1rem;
+}
+
+/* --- Témoignages---------*/
+.swiper {
+  width: 82%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.témoin-titre h2 {
+  font-size: var(--font-family);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 7px;
+}
+.swiper-wrapper {
+  margin-bottom: 3.5rem;
+}
+
+.swiper-slide {
+  background: linear-gradient(135deg, #e7e9e8, #d7e0dd);
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  cursor: default;
+  font-size: 0.9rem;
+  height: 340px !important;
+  justify-content: center;
+}
+
+.swiper-slide p {
+  margin-bottom: 1.5rem;
+  color: var(--color-primary-one);
+  font-size: 0.9rem;
+  font-family: var(--font-family);
+  font-weight: 300;
+}
+.aptient__details h5 {
+  color: var(--color-primary-one);
+}
+
+.patient {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 30px !important;
+}
+.patient .avatar img {
+  width: 2.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.swiper-pagination-bullet {
+  color: var(--color-vert);
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-slide {
+    padding: 1.5rem;
+  }
+}
+
+/*---------- distributeurs-------*/
+
+.bestProducts .distributeurs {
+  background-image: url(../image/banner4.jpg);
+  width: 100vw;
+  height: 60vh;
+  -webkit-backdrop-filter: blur(10px); /* Filter*/
+  backdrop-filter: blur(10px); /* FIlter*/
+}
+.bestProducts .distributeurs .bestINfors {
+  color: var(--color-primary-white);
+}
+.bestProducts .distributeurs .bestINfors h2 span {
+  /* -webkit-text-stroke: 1px black;*/
+  font-weight: 500;
+  font-family: var(--font-family2);
+  text-shadow: 2px 5px 0px var(--color-jaune-aliance);
+}
+.distributeurs .bestINfors p {
+  padding-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  text-shadow: 4px 0 5px var(--color-primary-one);
 }

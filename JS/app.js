@@ -93,3 +93,31 @@ window.addEventListener("scroll", () => {
 });
 
 /*----------------CLOSE AND CLOSE MENU -----*/
+
+// Initialize Swiper
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  // autoplay
+  autoplay: {
+    delay: 1000,
+  },
+  // RESPONSIVE BREAKPOINTS
+
+  breakpoints: {
+    // when windows width is > = 600px
+
+    600: {
+      slidesPerView: 2,
+    },
+    // when windows width is > = 1024px
+
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
