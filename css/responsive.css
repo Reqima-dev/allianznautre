@@ -112,6 +112,29 @@
   header {
     max-width: 800px;
   }
+
+  .bestProducts .bestimage {
+    padding: 130px 34px 130px 34px;
+  }
+  .bestProducts .best2 {
+    margin-left: 0;
+  }
+
+  .bestof {
+    flex-direction: column;
+  }
+  .bestProducts .bestimage {
+    width: 100vw;
+  }
+
+  .bestProducts .best2 {
+    background-image: url(../image/banner2-Miror.jpg);
+    background-position-x: 30%;
+  }
+
+  .best2 .bestINfors {
+    text-align: end;
+  }
 }
 @media screen and (max-width: 840px) {
   header {
@@ -240,6 +263,10 @@
   .slider-item {
     min-width: calc(90% / var(--slider-items));
   }
+
+  .bestProducts h2 span {
+    font-size: 56px;
+  }
 }
 
 @media screen and (max-width: 385px) {
@@ -295,4 +322,5 @@
     font-size: 10px;
     padding: 2px;
   }
+
 }
