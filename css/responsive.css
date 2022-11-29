@@ -342,7 +342,10 @@
   }
 
   .bestProducts h2 span {
-    font-size: 56px;
+    font-size: 40px;
+}
+  .bestProducts .distributeurs {
+    width: 444px !important;
   }
 }
 

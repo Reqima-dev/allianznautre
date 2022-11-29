@@ -916,6 +916,7 @@ header.window-scroll .open__nav i {
 /*---------- distributeurs-------*/
 
 .bestProducts .distributeurs {
+  background-color: #181619;
   background-image: url(../image/banner4.jpg);
   width: 100vw;
   height: 60vh;
