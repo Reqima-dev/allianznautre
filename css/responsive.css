@@ -165,6 +165,11 @@
   .sliderN .content p {
     width: 360px;
   }
+
+  .topHead .button_messages button {
+    font-size: 12px;
+    padding: 1rem 0;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -178,7 +183,7 @@
     left: 6rem;
   }
   .open__nav {
-    margin-right: 0;
+    margin-right: 70px;
   }
   header nav {
     right: 44px;
@@ -191,6 +196,10 @@
     display: flex;
     gap: 50px;
     padding: 0 2rem;
+  }
+
+  .topHead .button_messages {
+    gap: 1rem;
   }
 }
 
@@ -223,6 +232,14 @@
   .sliderN .content a {
     padding: 1rem;
   }
+
+  .topProducts .topHead h1 span {
+    font-size: 2rem;
+  }
+
+  .slider-item {
+    min-width: calc(90% / var(--slider-items));
+  }
 }
 
 @media screen and (max-width: 385px) {
@@ -237,21 +254,6 @@
   }
   .open__nav {
     margin-right: 5rem;
-  }
-}
-
-@media screen and (max-width: 351px) {
-  .sliderN .content {
-    left: 2rem;
-  }
-  .sliderN .content p {
-    font-size: 17px;
-  }
-  .sliderN .content p {
-    width: 200px;
-  }
-  .sliderN .content a {
-    padding: 0.75rem;
   }
 }
 
@@ -272,5 +274,25 @@
   }
   nav .resaux {
     top: 20rem;
+  }
+}
+
+@media screen and (max-width: 351px) {
+  .sliderN .content {
+    left: 2rem;
+  }
+  .sliderN .content p {
+    font-size: 17px;
+  }
+  .sliderN .content p {
+    width: 200px;
+  }
+  .sliderN .content a {
+    padding: 0.75rem;
+  }
+
+  .topHead .button_messages button {
+    font-size: 10px;
+    padding: 2px;
   }
 }
