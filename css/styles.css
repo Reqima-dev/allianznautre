@@ -919,7 +919,7 @@ header.window-scroll .open__nav i {
   background-color: #181619;
   background-image: url(../image/banner4.jpg);
   width: 100vw;
-  height: 60vh;
+  height: 100%;
   -webkit-backdrop-filter: blur(10px); /* Filter*/
   backdrop-filter: blur(10px); /* FIlter*/
 }
@@ -938,4 +938,63 @@ header.window-scroll .open__nav i {
   font-size: 1.5rem;
   text-transform: lowercase;
   text-shadow: 4px 0 5px var(--color-primary-one);
+}
+
+/*---------- Partenaires-------*/
+
+.partenaires_container {
+  width: 100%;
+  position: relative;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+  padding: 0 7rem;
+}
+.partenaires_container .partner img {
+  width: 120px;
+  height: 120px;
+}
+
+/*--------- GALERIE -----*/
+.galerie_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 2rem;
+  max-width: 100%;
+  height: 70vh;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.galerie_section .gal {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50vw;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 130px 75px 130px 75px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.galerie_section .gal:hover {
+  width: 60vw;
+}
+.galerie {
+  background-image: url(../image/banner5.jpg);
+  top: 3rem !important;
+}
+.galerie2 {
+  background-image: url(../image/banner6.jpg);
+  top: 2rem !important;
+}
+.galerie3 {
+  background-image: url(../image/banner7.jpg);
 }

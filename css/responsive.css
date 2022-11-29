@@ -170,7 +170,11 @@
     top: 1rem;
   }
 }
-
+@media screen and (max-width: 940px) {
+  .partenaires_container {
+    padding: 0 3rem;
+  }
+}
 @media screen and (max-width: 840px) {
   header {
     max-width: 700px;
@@ -186,6 +190,13 @@
   }
   .about-section .about_info {
     padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .partenaires_container .partner img {
+    width: 84px;
+    height: 93px;
   }
 }
 
@@ -256,11 +267,18 @@
   header {
     max-width: 500px;
   }
-  .bestProducts .distributeurs {
-    width: 650px !important;
-  }
+
   .bestProducts .distributeurs {
     padding: 120px 28px 130px 50px;
+    width: 97% !important;
+  }
+
+  .galerie_section {
+    flex-direction: column;
+    height: 100%;
+  }
+  .galerie_section .gal {
+    width: 100%;
   }
 }
 
@@ -313,10 +331,7 @@
   .sliderN .content {
     width: 50vw;
   }
-  .bestProducts .distributeurs {
-    width: 521px !important;
-    height: 45vh;
-  }
+
   .bestProducts .distributeurs {
     padding: 60px 90px 40px 40px;
   }
@@ -343,9 +358,9 @@
 
   .bestProducts h2 span {
     font-size: 40px;
-}
-  .bestProducts .distributeurs {
-    width: 444px !important;
+  }
+  .bestProducts .distributeurs .bestINfors h2 span {
+    text-shadow: none;
   }
 }
 
@@ -364,6 +379,10 @@
   }
   .bestProducts h2 span {
     font-size: 36px;
+  }
+  .partenaires_container {
+    gap: 1rem;
+    padding: 0 1rem;
   }
 }
 
@@ -385,9 +404,7 @@
   nav .resaux {
     top: 20rem;
   }
-  .bestProducts .distributeurs {
-    width: 349px !important;
-  }
+
   .bestProducts .distributeurs {
     padding: 20px 20px 20px 20px;
   }
