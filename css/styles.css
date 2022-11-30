@@ -245,6 +245,9 @@ header .menu li a:hover {
   color: var(--color-jaune-aliance);
 }
 
+header.window-scroll .menu li a:hover {
+  color: var(--color-jaune-aliance);
+}
 header .resaux {
   display: flex;
   align-items: center;
@@ -257,6 +260,9 @@ header .resaux a {
   transition: var(--transition);
 }
 header .resaux a:hover {
+  color: var(--color-jaune-aliance);
+}
+header.window-scroll .resaux a:hover {
   color: var(--color-jaune-aliance);
 }
 
@@ -1395,6 +1401,48 @@ small {
 .prdouct_banner {
   background-image: url(../image/banner11.jpg);
   background-color: #181619;
+}
+
+.savon_banner {
+  background-image: url(../image/banner12.jpg);
+}
+.lait_banner {
+  background-image: url(../image/banner2.jpg);
+}
+.lait_banner h1,
+.creme_banner h1,
+.lait_banner span,
+.creme_banner span,
+.lait_banner span a,
+.creme_banner span a {
+  color: var(--color-primary-one) !important;
+}
+.lait_banner span a:hover,
+.creme_banner span a:hover {
+  color: var(--color-jaune-aliance) !important;
+}
+
+.creme_banner {
+  background-image: url(../image/banner1.jpg);
+}
+
+.gel_banner {
+  background-image: url(../image/banner3.jpg);
+}
+.accesoires_banner {
+  background-image: url(../image/banner15.jpg);
+}
+.pEclat_banner {
+  background-image: url(../image/banner16.jpg);
+}
+.tpetis_banner {
+  background-image: url(../image/banner17.jpg);
+}
+.pEbene_banner {
+  background-image: url(../image/banner18.jpg);
+}
+.jouv_banner {
+  background-image: url(../image/banner19.jpg);
 }
 
 .productPage {
