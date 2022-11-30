@@ -119,6 +119,17 @@
   .about-section .about_info {
     padding: 2rem;
   }
+
+  .footer_info {
+    margin: 3rem 0rem;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 61px;
+  }
+  .footer_info .right {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 940px) {
@@ -169,10 +180,16 @@
   .about-section .about2 {
     top: 1rem;
   }
-}
-@media screen and (max-width: 940px) {
+
   .partenaires_container {
     padding: 0 3rem;
+  }
+  .newsletters {
+    margin: 3rem 5rem;
+  }
+
+  .footer_section ul {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 840px) {
@@ -190,6 +207,9 @@
   }
   .about-section .about_info {
     padding: 2rem 0;
+  }
+  .newsletters .infoNewsle {
+    width: 84vw;
   }
 }
 
@@ -261,6 +281,37 @@
   .bestProducts .distributeurs {
     padding: 130px 98px 130px 98px;
   }
+
+  .newsletters {
+    flex-direction: column;
+    margin: 3rem 3rem;
+  }
+  .newsletters .infoNewsle {
+    height: 100%;
+    padding: 4rem;
+  }
+  .newsletters .infoNewsle form input {
+    width: 34vw;
+  }
+  .newsletters .infoNewsle form button {
+    width: 120px;
+  }
+  .imaNewslette {
+    width: 100%;
+  }
+
+  .footer_section {
+    width: 750px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pointsVentes {
+    padding: 0 3rem;
+  }
+  .footer_section {
+    width: 600px !important;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -279,6 +330,10 @@
   }
   .galerie_section .gal {
     width: 100%;
+  }
+
+  .footer_section {
+    width: 650px !important;
   }
 }
 
@@ -312,6 +367,9 @@
   .bestProducts h2 span {
     font-size: 55px;
   }
+  .footer_section {
+    width: 590px !important;
+  }
 }
 
 @media screen and (max-width: 521px) {
@@ -334,6 +392,9 @@
 
   .bestProducts .distributeurs {
     padding: 60px 90px 40px 40px;
+  }
+  .footer_section {
+    width: 521px !important;
   }
 }
 
@@ -362,6 +423,9 @@
   .bestProducts .distributeurs .bestINfors h2 span {
     text-shadow: none;
   }
+  .footer_section {
+    width: 463px !important;
+  }
 }
 
 @media screen and (max-width: 385px) {
@@ -383,6 +447,29 @@
   .partenaires_container {
     gap: 1rem;
     padding: 0 1rem;
+  }
+  .newsletters .infoNewsle > div img {
+    width: 51px;
+    height: 38px;
+  }
+  .footer_section {
+    width: 384px !important;
+  }
+  .footer_info .left a,
+  .footer_info .right p {
+    letter-spacing: 2px;
+  }
+  .footer_info .left {
+    width: 292px;
+  }
+  .footer_info .right {
+    width: 314px;
+  }
+
+  .footer_section span {
+    width: 150px !important;
+    font-size: 12px;
+    letter-spacing: 2px;
   }
 }
 
@@ -408,6 +495,9 @@
   .bestProducts .distributeurs {
     padding: 20px 20px 20px 20px;
   }
+  .footer_section {
+    width: 375px !important;
+  }
 }
 
 @media screen and (max-width: 351px) {
@@ -427,5 +517,8 @@
   .topHead .button_messages button {
     font-size: 10px;
     padding: 2px;
+  }
+  .footer_section {
+    width: 351px !important;
   }
 }
