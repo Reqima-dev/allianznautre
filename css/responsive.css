@@ -292,12 +292,13 @@
     display: block;
   }
   .sliderN {
-    width: 750px;
-    height: 657px;
+    width: 100% !important;
+    height: 100% !important;
   }
   .sliderN img {
     top: 0;
-    height: 657px;
+    width: 100%;
+    height: 100% !important;
     object-fit: cover;
     object-position: center 15%;
   }
