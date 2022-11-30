@@ -89,7 +89,6 @@ function currentSlide(n) {
 
 /*----------- END SLIDER HERO FUNCTION -----------*/
 
-
 /*----------------END SCROLL AND CHANGE NAVBAR -----*/
 
 // Initialize Swiper
@@ -119,3 +118,4 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+

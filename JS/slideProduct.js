@@ -100,3 +100,15 @@ const sliderInit = function (currentSlider) {
 for (let i = 0, len = sliders.length; i < len; i++) {
   sliderInit(sliders[i]);
 }
+
+/*---------- FILTER in PRODUCT PAGE ---------*/
+const aside = document.querySelector("aside");
+const filterAsideBtn = document.querySelector(".filterProduct");
+const closeAside = document.querySelector(".closeAside");
+
+filterAsideBtn.addEventListener("click", () => {
+  aside.classList.toggle("activeFiltre");
+});
+closeAside.addEventListener("click", () => {
+  aside.classList.remove("activeFiltre");
+});
