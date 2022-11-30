@@ -1,52 +1,3 @@
-/*----------- SLIDER HERO FUNCTION -----------*/
-let index = 0;
-let a = 0;
-let sliderNew = document.getElementsByClassName("sliderN");
-let line = document.getElementsByClassName("line");
-
-auto();
-
-function show(n) {
-  for (a = 0; a < sliderNew.length; a++) {
-    //slider.lenght=4
-    sliderNew[a].style.display = "none";
-  }
-  for (a = 0; a < line.length; a++) {
-    //line.lenght=4
-    line[a].className = line[a].className.replace("active");
-  }
-
-  sliderNew[n - 1].style.display = "block";
-  line[n - 1].className += " active"; // add space
-}
-
-function auto() {
-  index++;
-  if (index > sliderNew.length) {
-    index = 1;
-  }
-  show(index);
-  setTimeout(auto, 4000); //4secondes
-}
-
-function plusSlide(n) {
-  index += n;
-  if (index > sliderNew.length) {
-    index = 1;
-  }
-  if (index < 1) {
-    index = sliderNew.length;
-  }
-  show(index);
-}
-
-function currentSlide(n) {
-  index = n;
-  show(index);
-}
-
-/*----------- END SLIDER HERO FUNCTION -----------*/
-
 /*---------------- SCROLL AND CHANGE NAVBAR -----*/
 
 window.addEventListener("scroll", () => {
@@ -54,9 +5,6 @@ window.addEventListener("scroll", () => {
     .querySelector("header")
     .classList.toggle("window-scroll", window.scrollY > 0);
 });
-
-/*----------------END SCROLL AND CHANGE NAVBAR -----*/
-
 /*----------------OPEN AND CLOSE MENU -----*/
 const menu = document.querySelector("nav");
 const open__nav = document.querySelector(".open__nav");
@@ -93,6 +41,56 @@ window.addEventListener("scroll", () => {
 });
 
 /*----------------CLOSE AND CLOSE MENU -----*/
+
+/*----------- SLIDER HERO FUNCTION -----------*/
+let index = 0;
+let a = 0;
+let sliderNew = document.getElementsByClassName("sliderN");
+let line = document.getElementsByClassName("line");
+
+function show(n) {
+  for (a = 0; a < sliderNew.length; a++) {
+    //slider.lenght=4
+    sliderNew[a].style.display = "none";
+  }
+  for (a = 0; a < line.length; a++) {
+    //line.lenght=4
+    line[a].className = line[a].className.replace("active");
+  }
+
+  sliderNew[n - 1].style.display = "block";
+  line[n - 1].className += " active"; // add space
+}
+auto();
+function auto() {
+  index++;
+  if (index > sliderNew.length) {
+    index = 1;
+  }
+  show(index);
+  setTimeout(auto, 4000); //4secondes
+}
+
+function plusSlide(n) {
+  index += n;
+  if (index > sliderNew.length) {
+    index = 1;
+  }
+  if (index < 1) {
+    index = sliderNew.length;
+  }
+  show(index);
+}
+
+function currentSlide(n) {
+  index = n;
+  show(index);
+}
+
+/*----------- END SLIDER HERO FUNCTION -----------*/
+
+
+/*----------------END SCROLL AND CHANGE NAVBAR -----*/
 
 // Initialize Swiper
 var swiper = new Swiper(".mySwiper", {

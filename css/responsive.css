@@ -130,6 +130,9 @@
   .footer_info .right {
     text-align: center;
   }
+  .ourMission {
+    margin: 3rem;
+  }
 }
 
 @media screen and (max-width: 940px) {
@@ -190,6 +193,12 @@
 
   .footer_section ul {
     flex-wrap: wrap;
+  }
+  .ourMission .missionContent {
+    flex-direction: column;
+  }
+  .ourMission .missionContent article {
+    width: 626px;
   }
 }
 @media screen and (max-width: 840px) {
@@ -335,6 +344,9 @@
   .footer_section {
     width: 650px !important;
   }
+  .ourMission .missionContent article {
+    width: 491px;
+  }
 }
 
 @media screen and (max-width: 590px) {
@@ -370,6 +382,13 @@
   .footer_section {
     width: 590px !important;
   }
+
+  .banner_about h1 {
+    font-size: 3rem;
+  }
+  .ourMission {
+    margin: 3rem 31px;
+  }
 }
 
 @media screen and (max-width: 521px) {
@@ -395,6 +414,13 @@
   }
   .footer_section {
     width: 521px !important;
+    padding: 71px 0px 45px 0px;
+  }
+  .ourMission .missionContent article {
+    width: 383px;
+  }
+  .ourMission {
+    margin: 3rem 21px;
   }
 }
 
@@ -425,6 +451,9 @@
   }
   .footer_section {
     width: 463px !important;
+  }
+  .banner_about h1 {
+    font-size: 2rem;
   }
 }
 
@@ -496,7 +525,11 @@
     padding: 20px 20px 20px 20px;
   }
   .footer_section {
-    width: 375px !important;
+    width: 361px !important;
+  }
+
+  .ourMission .missionContent article {
+    width: 294px;
   }
 }
 
