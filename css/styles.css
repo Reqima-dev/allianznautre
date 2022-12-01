@@ -1422,6 +1422,10 @@ small {
   color: var(--color-jaune-aliance) !important;
 }
 
+.services_banner {
+  background-image: url(../image/banner13.jpg);
+}
+
 .creme_banner {
   background-image: url(../image/banner1.jpg);
 }
