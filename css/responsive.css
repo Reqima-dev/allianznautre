@@ -48,7 +48,6 @@
     font-size: 40px;
     cursor: pointer;
     z-index: -1;
-    margin-right: 7rem;
   }
   .close__nav {
     display: block;
@@ -77,6 +76,11 @@
   .about-section {
     max-width: 970px;
     margin: 0 auto;
+  }
+
+  .quizz_container {
+    left: 2rem;
+    max-width: 1000px !important;
   }
 }
 
@@ -252,6 +256,13 @@
   .overProduct {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .quizz_container {
+    max-width: 900px !important;
+  }
+  .formSection .name__group {
+    padding: 2rem;
+  }
 }
 @media screen and (max-width: 840px) {
   header {
@@ -272,6 +283,17 @@
   .newsletters .infoNewsle {
     width: 84vw;
   }
+  .quizz_container {
+    left: 0rem;
+  }
+  .formSection .name__group {
+    flex-direction: column;
+  }
+  .name__group img {
+    width: 100%;
+    object-position: center center;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -367,6 +389,10 @@
   .pointsVentes {
     padding: 0 3rem;
   }
+  .name__group .message_group textarea {
+    width: 100%;
+    height: 30vh;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -437,6 +463,9 @@
   .ourMission {
     margin: 3rem 31px;
   }
+  .compoition_savons {
+    padding: 1rem 2rem;
+  }
 }
 
 @media screen and (max-width: 521px) {
@@ -469,6 +498,9 @@
   .ourMission {
     margin: 3rem 21px;
   }
+  .formSection .name__group {
+    padding: 1rem;
+  }
 }
 
 @media screen and (max-width: 444px) {
@@ -499,6 +531,13 @@
 
   .banner_about h1 {
     font-size: 2rem;
+  }
+  .name__group .formulare {
+    align-items: flex-start;
+  }
+
+  .name__group .formulare label {
+    font-size: 16px;
   }
 }
 
@@ -547,6 +586,9 @@
   .prdouct_banner,
   .footer_section {
     width: 394px !important;
+  }
+  .formSection {
+    padding-inline: 7px;
   }
 }
 

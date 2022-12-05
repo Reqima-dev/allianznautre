@@ -1577,3 +1577,176 @@ small {
   background: var(--color-primary-one);
   color: var(--color-primary-white);
 }
+
+/*------ QUIZZ CONTAINER --------*/
+.quizz_container {
+  padding-inline: 16px;
+  display: grid;
+  gap: 24px;
+  position: relative;
+  left: 5rem;
+  user-select: none;
+}
+
+.formSection {
+  --forms-items: 1;
+
+  position: relative;
+  width: 100%;
+  padding-inline: 16px;
+  overflow-x: hidden;
+}
+
+.form__container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  transition: transform 250ms ease;
+}
+
+.formul_item {
+  min-width: calc(100% / var(--forms-items));
+  width: calc(100% / var(--forms-items));
+  padding-inline: 4px;
+}
+
+.formSection form {
+  position: relative;
+  width: 100%;
+  /*  height: 100vh;*/
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.btnNext {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.formSection .name__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  gap: 5rem;
+  padding: 4rem;
+  border: 1px solid gray;
+}
+
+.name__group .message_group .btn-primary {
+  position: relative;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary-one);
+  color: var(--color-vert);
+  border-radius: 5px;
+  transition: all 400ms ease;
+}
+
+.name__group .message_group .btn-primary:hover {
+  font-size: 1rem;
+  background: var(--color-vert);
+  color: var(--color-primary-white);
+}
+.name__group .message_group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+}
+.name__group .message_group label {
+  font-weight: bold;
+}
+
+.name__group .message_group textarea {
+  width: 500px;
+  resize: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.name__group img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.name__group .formulare {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.name__group .formulare label {
+  font-size: 20px;
+}
+
+.name__group .formulare input {
+  width: 250px;
+  height: 5vh;
+  padding: 1rem;
+  outline: none;
+}
+.name__group .formulare fieldset {
+  width: 400px;
+  height: 100%;
+  padding: 1rem;
+}
+.name__group .formulare fieldset input {
+  width: 50px;
+  height: 100%;
+  padding: 0;
+}
+
+.name__group .formulare fieldset label {
+  font-size: 17px;
+}
+
+.name__group .formulare fieldset div {
+  padding: 12px 0;
+}
+
+.name__group .formulare fieldset legend {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 2rem 1rem;
+  color: var(--color-jaune-aliance);
+}
+
+@media (min-width: 1200px) {
+  .quizz_container {
+    max-width: 1150px;
+  }
+  .banner-slider {
+    --forms-items: 1;
+  }
+}
+
+@media (min-width: 1400px) {
+  .quizz_container {
+    max-width: 1400px;
+  }
+  .banner-slider {
+    --forms-items: 2;
+  }
+}
+.compoition_savons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 4rem;
+}
+.compoition_savons img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
