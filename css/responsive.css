@@ -786,3 +786,11 @@
     padding: 2px;
   }
 }
+
+
+@media (hover: hover) {
+  .galerie_section .gal:hover {
+    width: 60vw;
+  }
+}
+

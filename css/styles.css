@@ -990,9 +990,7 @@ header.window-scroll .open__nav i {
   transition: var(--transition);
   cursor: pointer;
 }
-.galerie_section .gal:hover {
-  width: 60vw;
-}
+
 .galerie {
   background-image: url(../image/banner5.jpg);
   top: 3rem !important;
