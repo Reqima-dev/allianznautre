@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Magazine Ingrédients - AllianzNature</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---- BANNER PRODUCT ----->
+
+    <div class="banner_about ingred_banner">
+      <h1 style="text-align: center">
+        Blog <br />
+        Ingredients
+      </h1>
+      <span>
+        <a href="../index.html">Acceuil</a> >
+        <a href="../magzine.html">Magazine</a> >
+        <small>Ingrédients</small>
+      </span>
+    </div>
+    <!---- END BANNER PRODUCT ----->
+
+    <!---- HEADER ----->
+    <header>
+      <a href="../index.html" class="logo">
+        <img src="../image/LOGO C.png" alt="" />
+      </a>
+      <nav id="dialog">
+        <ul class="menu">
+          <button class="close__nav" onClick="closeDialog()">
+            <i class="bx bx-x" style="color: #ffffff"></i>
+          </button>
+          <li><a href="../index.html">Acceuil</a></li>
+          <li><a href="../about.html">Notre Marque</a></li>
+          <li><a href="../produits.html">Produits</a></li>
+          <li><a href="../services.html">Services</a></li>
+          <li><a href="../magzine.html">Magazine</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <div class="resaux">
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#"><i class="bx bxl-pinterest"></i></a>
+        </div>
+      </nav>
+
+      <button class="open__nav" onClick="showDialog()">
+        <i class="bx bx-menu" style="color: #ffffff"></i>
+      </button>
+    </header>
+    <!----END  HEADER ----->
+
+    <section class="bloging">
+      <div class="blog_container">
+        <div class="blog_content">
+          <div class="blog">
+            <div class="imgae">
+              <img src="../image/blog3.jpg" />
+              <span class="date">09 mars 2022</span>
+            </div>
+            <div class="blog_info">
+              <h1>Le Baobab</h1>
+              <p>
+                Le Baobab africain est la plus connue des huit espèces de
+                baobabs. C'est un arbre africain à caudex du genre Adansonia et
+                de la famille des Bombacacées
+              </p>
+              <a href="blog_baobab.html">LIRE LA SUITE</a>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="imgae">
+              <img src="../image/blog4.jpg" />
+              <span class="date">09 mars 2022</span>
+            </div>
+            <div class="blog_info">
+              <h1>La Papaye</h1>
+              <p>
+                La papaye est le fruit comestible du papayer. Riche en fibres,
+                c’est un fruit hautement vitaminé qui contient plusieurs
+                substances antioxydantes essentielles à la santé de l’organisme.
+              </p>
+              <a href="blog_papaye.html">LIRE LA SUITE</a>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="imgae">
+              <img src="../image/blog5.jpg" />
+              <span class="date">Août 2022</span>
+            </div>
+            <div class="blog_info">
+              <h1>Le Laurier</h1>
+              <p>
+                Les feuilles de laurier sont appréciées depuis longtemps pour
+                leurs nombreuses vertus. On les utilise souvent en cuisine, et
+                elles présentent aussi des bienfaits intéressants du point de
+                vue digestif, anti-inflammatoire et relaxant.
+              </p>
+              <a href="bolg_laurier.html">LIRE LA SUITE</a>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="imgae">
+              <img src="../image/blog6.jpg" />
+              <span class="date">Août 2022</span>
+            </div>
+            <div class="blog_info">
+              <h1>La cannelle</h1>
+              <p>
+                La cannelle est une épice constituée de l'écorce intérieure de
+                certains arbres de la famille des Lauracées.
+              </p>
+              <a href="blog_cannelle.html">LIRE LA SUITE</a>
+            </div>
+          </div>
+          <div class="blog">
+            <div class="imgae">
+              <img src="../image/blog10.jpg" />
+              <span class="date">Août 2022</span>
+            </div>
+            <div class="blog_info">
+              <h1>Le Moringa</h1>
+              <p>
+                Le moringa et la peau Purifiants et astringents, les tanins et
+                flavonoïdes qu'il contient lui permettent de purifier et
+                d'assainir la peau. Il est également riche en provitamines
+              </p>
+              <a href="bolg_moringa.html">LIRE LA SUITE</a>
+            </div>
+          </div>
+        </div>
+        <div class="globCateg">
+          <div class="categories">
+            <h1>CATEGORIES</h1>
+            <a href="blog_produits.html"> > Produits</a>
+            <a class="active" href="blog_ingrédient.html"> > Ingrédients</a>
+          </div>
+          <div class="articleplus">
+            <h1>DERNIERS ARTICLES</h1>
+            <div class="articontent">
+              <a href="blog_papaye.html" class="arti">
+                <img src="../image/blog4.jpg" />
+                <div class="info">
+                  <h3>La Papaye</h3>
+                  <small>10 Juin 2022</small>
+                </div>
+              </a>
+              <a href="blog_baobab.html" class="arti">
+                <img src="../image/blog3.jpg" />
+                <div class="info">
+                  <h3>Le Baobab</h3>
+                  <small>10 Juin 2022</small>
+                </div>
+              </a>
+              <a href="bolg_laurier.html" class="arti">
+                <img src="../image/blog5.jpg" />
+                <div class="info">
+                  <h3>Le Laurier</h3>
+                  <small>10 Juin 2022</small>
+                </div>
+              </a>
+              <a href="blog_cannelle.html" class="arti">
+                <img src="../image/blog6.jpg" />
+                <div class="info">
+                  <h3>La cannelle</h3>
+                  <small>10 Juin 2022</small>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----- NEWSLETTERS ------>
+    <section class="newsletters">
+      <div class="infoNewsle">
+        <div>
+          <img src="../image/newsletters.svg" alt="" />
+          <p>
+            ABONNEZ-VOUS <br />
+            À NOTRE <br />
+            NEWSLETTER
+          </p>
+        </div>
+        <span>Recevez les dernières nouvelles, offres et réductions.</span>
+        <form action="">
+          <input type="email" placeholder="Votre Email" required />
+          <button>S'ABONNER</button>
+        </form>
+      </div>
+      <div class="imaNewslette"></div>
+    </section>
+    <!----- END NEWSLETTERS ------>
+    <!----- Footer  ------>
+    <footer class="footer_section">
+      <ul>
+        <li><a href="../about.html">Notre Marque</a></li>
+        <li><a href="../services.html"> Services</a></li>
+        <li><a href="../produits.html">Produits</a></li>
+        <li><a href="../magzine.html">Magazine</a></li>
+        <li><a href="../contact.html">Contactez-nous</a></li>
+      </ul>
+      <div class="footer_info">
+        <div class="left">
+          <a href="tel:+22954333808" target="_blank">
+            <i class="bx bx-phone"></i> +229 543 338 08
+          </a>
+          <a href="https://goo.gl/maps/7XUqvqHSK9wayMmn7" target="_blank">
+            <i class="bx bx-location-plus"></i>
+            03bp 732 Allianznature, Cotonou
+          </a>
+          <a href="mailto:allianznature@gmail.com" target="_blank">
+            <i class="bx bx-envelope"></i>
+            allianznature@gmail.com
+          </a>
+          <small>
+            <i class="bx bx-time-five"></i>
+            Lund-Sam: 08:00-18:00
+          </small>
+        </div>
+        <div class="center">
+          <img src="../image/LOGO C.png" alt="" />
+          <div class="resaux">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+            <a href="#"><i class="bx bxl-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <p>
+            AllianzNature, notre passion prendre soin de votre peau. <br />
+            <br />
+            Pour rendre votre peau belle comme du velours et irrésistible au
+            toucher. <br />
+            <br />
+            Nous disposons d'une gamme complète de produits de soins corporels
+            fabriqués avec passion.
+          </p>
+          <a href="#">Disponible ici</a>
+        </div>
+      </div>
+      <span
+        >&copy;2022 AllianzNature. Créée par :
+        <a href="http://simpleit.bj/" target="_blank">SIMPLE IT</a></span
+      >
+    </footer>
+
+    <!----- END Footer  ------>
+
+    <!--- ionicon link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!----- JAVASCRIPT files------>
+    <script src="../JS/app.js"></script>
+
+    <!------------- SLIDE GAMME PRODUCT SCRIPT    ------->
+    <script src="../JS/slideProduct.js"></script>
+  </body>
+</html>
