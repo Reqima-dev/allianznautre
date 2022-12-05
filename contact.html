@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactez-nous - AllianzNature</title>
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="banner_about contact_bGimage">
+      <h1>Contact</h1>
+      <span>
+        <a href="index.html">Acceuil</a> >
+        <small>Contact</small>
+      </span>
+    </div>
+
+    <!---- HEADER ----->
+    <header>
+      <a href="index.html" class="logo">
+        <img src="image/LOGO C.png" alt="" />
+      </a>
+      <nav id="dialog">
+        <ul class="menu">
+          <button class="close__nav" onClick="closeDialog()">
+            <i class="bx bx-x" style="color: #ffffff"></i>
+          </button>
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="about.html">Notre Marque</a></li>
+          <li><a href="produits.html">Produits</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="magzine.html">Magazine</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="resaux">
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#"><i class="bx bxl-pinterest"></i></a>
+        </div>
+      </nav>
+
+      <button class="open__nav" onClick="showDialog()">
+        <i class="bx bx-menu" style="color: #ffffff"></i>
+      </button>
+    </header>
+    <!----END  HEADER ----->
+
+    <section class="contact_container">
+      <div class="contactMaps">
+        <div class="left">
+          <h1>Cotonou</h1>
+
+          <div class="contactNum">
+            <div class="elemntor_row">
+              <div class="">
+                <span>TÉLÉPHONE</span>
+                <a href="tel:+22954333808">+229 54-33-38-08</a>
+              </div>
+              <div>
+                <span>ADDRESS</span>
+                <small> 03bp 732 Cotonou</small>
+                <small>AllianzNature, Cotonou - Ste Rita</small>
+              </div>
+            </div>
+            <div class="elemntor_row">
+              <div>
+                <span>E-mail</span>
+                <a href="mailto:allianznature@gmail.com"
+                  >allianznature@gmail.com</a
+                >
+              </div>
+              <div class="resaux_classse">
+                <span>RÉSEAUX SOCIAUX</span>
+                <div>
+                  <a href="#"><i class="bx bxl-linkedin"></i></a>
+                  <a href="#"><i class="bx bxl-instagram"></i></a>
+                  <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+                  <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                  <a href="#"><i class="bx bxl-pinterest"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.18412793327!2d2.389079714316502!3d6.370212826694744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102355408ea0df9b%3A0x2880e8e37be433e4!2sallianznature!5e0!3m2!1sfr!2sbj!4v1665655738401!5m2!1sfr!2sbj"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="contact_container" id="distributer_contact">
+      <div class="contactMaps">
+        <div class="contact_im">
+          <img src="image/Colage_86&92.jpg" alt="" />
+        </div>
+
+        <div class="right">
+          <form action="">
+            <h1>ENVOYEZ VOTRE QUESTION</h1>
+            <div>
+              <input type="text" placeholder="Votre Nom" required />
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Votre Email"
+                required
+              />
+              <textarea
+                name=""
+                id=""
+                cols="40"
+                rows="4"
+                placeholder="Votre Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!----- Footer  ------>
+    <footer class="footer_section">
+      <ul>
+        <li><a href="about.html">Notre Marque</a></li>
+        <li><a href="services.html"> Services</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="magzine.html">Magazine</a></li>
+        <li><a href="contact.html">Contactez-nous</a></li>
+      </ul>
+      <div class="footer_info">
+        <div class="left">
+          <a href="tel:+22954333808" target="_blank">
+            <i class="bx bx-phone"></i> +229 543 338 08
+          </a>
+          <a href="https://goo.gl/maps/7XUqvqHSK9wayMmn7" target="_blank">
+            <i class="bx bx-location-plus"></i>
+            03bp 732 Allianznature, Cotonou
+          </a>
+          <a href="mailto:allianznature@gmail.com" target="_blank">
+            <i class="bx bx-envelope"></i>
+            allianznature@gmail.com
+          </a>
+          <small>
+            <i class="bx bx-time-five"></i>
+            Lund-Sam: 08:00-18:00
+          </small>
+        </div>
+        <div class="center">
+          <img src="image/LOGO C.png" alt="" />
+          <div class="resaux">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+            <a href="#"><i class="bx bxl-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <p>
+            AllianzNature, notre passion prendre soin de votre peau. <br />
+            <br />
+            Pour rendre votre peau belle comme du velours et irrésistible au
+            toucher. <br />
+            <br />
+            Nous disposons d'une gamme complète de produits de soins corporels
+            fabriqués avec passion.
+          </p>
+          <a href="#">Disponible ici</a>
+        </div>
+      </div>
+      <span
+        >&copy;2022 AllianzNature. Créée par :
+        <a href="http://simpleit.bj/" target="_blank">SIMPLE IT</a></span
+      >
+    </footer>
+    <!----- END Footer  ------>
+
+    <!----- JAVASCRIPT files------>
+    <script src="JS/app.js"></script>
+  </body>
+</html>

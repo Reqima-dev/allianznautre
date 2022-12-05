@@ -2107,3 +2107,158 @@ small {
 .blog_info .share a:hover {
   color: var(---color-gray);
 }
+
+/*-------------- CONTACT PAGE ----------*/
+.contact_bGimage {
+  background-image: url(../image/bannerBlue.png);
+  height: 50vh;
+}
+
+.contact_container {
+  width: 100%;
+  height: 100%;
+  max-width: 1360px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.contact_container .contactMaps {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--color-primary-white);
+}
+.contact_container .contactMaps .left {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 50px 60px 50px 60px;
+}
+.contact_container .contactMaps .left h1 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.contactNum .elemntor_row {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 55px;
+  margin-bottom: 0px;
+  width: 500px;
+}
+.contactNum .elemntor_row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.contactNum .elemntor_row span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.contactNum .elemntor_row small {
+  color: var(--color-primary-one);
+  font-size: 14px;
+}
+.contactNum .elemntor_row a {
+  color: var(--color-primary-one);
+  font-size: 14px;
+  margin-top: 0.85rem;
+  font-weight: 700;
+  transition: var(--transition);
+}
+.contactNum .elemntor_row a:hover {
+  color: var(--color-jaune-aliance);
+}
+.contactNum .elemntor_row .resaux_classse > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contactMaps .right {
+  width: 100%;
+  height: 100%;
+}
+.contactMaps .right iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contactMaps .contact_im img {
+  width: 618px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.contactMaps .right form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 50px 60px 50px 60px;
+}
+
+.contactMaps .right form h1 {
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.contactMaps .right form > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contactMaps .right form > div input {
+  width: 100%;
+  height: 50px;
+  padding: 1rem;
+  outline: none;
+  background: var(--bg-color);
+  transition: var(--transition);
+  border: 1px solid var(---color-gray);
+}
+.contactMaps .right form > div input:focus {
+  background-color: var(--color-primary-white);
+}
+
+.contactMaps .right form > div textarea {
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+  outline: none;
+  background: var(--bg-color);
+  transition: var(--transition);
+  border: 1px solid var(---color-gray);
+  resize: none;
+}
+.contactMaps .right form > div textarea:focus {
+  background-color: var(--color-primary-white);
+}
+.contactMaps .right form button {
+  width: 100%;
+  height: 45px;
+  color: var(--color-primary-white);
+  background: var(--color-primary-one);
+  border: 1px solid var(--color-primary-one);
+  transition: var(--transition);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.contactMaps .right form button:hover {
+  background: transparent;
+  color: var(--color-primary-one);
+  font-size: 15px;
+}

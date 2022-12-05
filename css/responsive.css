@@ -164,6 +164,20 @@
     padding: 2rem;
     height: 30vh;
   }
+  .contact_container .contactMaps {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .contactMaps .right iframe {
+    height: 50vh;
+  }
+  .contact_container {
+    padding: 4rem;
+  }
+  .contactMaps .contact_im img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1040px) {
@@ -514,6 +528,20 @@
     height: 50vh;
     object-fit: cover;
   }
+  .contact_container .contactMaps .left {
+    padding: 20px;
+  }
+
+  .contact_container {
+    padding: 3rem;
+  }
+  .contactNum .elemntor_row {
+    width: 100%;
+  }
+  .contactNum .elemntor_row {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width: 590px) {
@@ -555,6 +583,9 @@
   }
   .compoition_savons {
     padding: 1rem 2rem;
+  }
+  .contact_container {
+    padding: 1rem;
   }
 }
 
