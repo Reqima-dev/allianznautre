@@ -233,11 +233,16 @@
     grid-template-columns: repeat(2, 1fr);
     width: 0 !important;
   }
+  .vidYoutube {
+    margin: 3rem;
+  }
+  .vidYoutube iframe {
+    width: 550px;
+    height: 320px;
+  }
 }
 
 @media screen and (max-width: 940px) {
- 
-
   .bestProducts .bestimage {
     padding: 130px 34px 130px 34px;
   }
@@ -337,7 +342,6 @@
   }
 }
 @media screen and (max-width: 840px) {
-  
   .ventesFlash {
     flex-wrap: wrap;
     padding: 41px 0rem;
@@ -598,6 +602,11 @@
   .filter-items {
     margin: 2rem !important;
   }
+
+  .vidYoutube iframe {
+    width: 350px;
+    height: 170px;
+  }
 }
 
 @media screen and (max-width: 521px) {
@@ -740,6 +749,11 @@
   }
   .bloging .blog_content {
     gap: 1rem;
+  }
+
+  .vidYoutube iframe {
+    width: 250px;
+    height: 170px;
   }
 }
 

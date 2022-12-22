@@ -693,6 +693,14 @@ header.window-scroll .open__nav i {
   color: var(---color-gray);
 }
 
+/*------------- VIDEO YOUTUBE ---------*/
+.vidYoutube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
 /*--------   About SECTION HOme Page --------*/
 
 .containerAbot {
