@@ -68,6 +68,7 @@ body {
   position: relative;
   font-family: var(--font-family);
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 /*----------------- SLIDER -------------------*/
@@ -402,7 +403,6 @@ header.window-scroll .open__nav i {
   user-select: none;
   scrollbar-color: var(--color-primary-white) var(--color-vert);
   scrollbar-width: thin;
-  
 }
 
 .snaps-inline {
