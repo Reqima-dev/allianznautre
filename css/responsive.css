@@ -378,7 +378,7 @@
 
 @media screen and (max-width: 750px) {
   header {
-    max-width: 600px;
+    max-width: 100% !important;
   }
   #slideLargeFormat {
     display: none;
@@ -568,10 +568,6 @@
 
   header nav {
     right: 44px;
-  }
-  header {
-    margin: 0 2rem;
-    max-width: 100%;
   }
 
   header.window-scroll {
