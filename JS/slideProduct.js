@@ -19,11 +19,11 @@ function showFilteredContent(btn) {
       btn.classList.add("active-btn");
       item.style.display = "block";
       slider__container.classList.add("clic_container");
-      sliderSection.classList.remove("sliderSection");
+   //   sliderSection.classList.remove("sliderSection");
 
-      card_slider.classList.remove("card-slider");
-      nextBtn.style.display = "none";
-      prevBtn.style.display = "none";
+   //   card_slider.classList.remove("card-slider");
+//      nextBtn.style.display = "none";
+ //     prevBtn.style.display = "none";
     } else {
       item.style.display = "none";
     }

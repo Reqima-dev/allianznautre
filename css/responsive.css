@@ -224,6 +224,15 @@
   .overProduct {
     padding: 0;
   }
+
+  .filter-items {
+    gap: 2rem;
+  }
+
+  .pointsVentes .points {
+    grid-template-columns: repeat(2, 1fr);
+    width: 0 !important;
+  }
 }
 
 @media screen and (max-width: 940px) {
@@ -242,7 +251,7 @@
     flex-direction: column;
   }
   .bestProducts .bestimage {
-    width: 100vw;
+    width: 95vw;
   }
 
   .bestProducts .best2 {
@@ -343,7 +352,7 @@
     padding: 0;
   }
   .about-section .about_info {
-    padding: 2rem 0;
+    padding: 2rem 30px;
   }
   .newsletters .infoNewsle {
     width: 84vw;
@@ -389,7 +398,7 @@
     object-position: center 15%;
   }
   .sliderN .content {
-    top: 14rem;
+    top: 27rem;
   }
   .sliderN .content h1 {
     letter-spacing: 3px;
@@ -542,20 +551,27 @@
     flex-direction: column;
     gap: 2rem;
   }
+  .pointsVentes .points {
+    grid-template-columns: 1fr;
+  }
+
+  .pointsVentes .points a {
+    width: 309px;
+    height: 157px;
+  }
 }
 
 @media screen and (max-width: 590px) {
   .sliderN .content {
     left: 6rem;
   }
-  .open__nav {
-    margin-right: 70px;
-  }
+
   header nav {
     right: 44px;
   }
   header {
     margin: 0 2rem;
+    max-width: 100%;
   }
 
   header.window-scroll {
@@ -586,6 +602,9 @@
   }
   .contact_container {
     padding: 1rem;
+  }
+  .filter-items {
+    margin: 2rem !important;
   }
 }
 
@@ -765,6 +784,12 @@
   .blog_info .share p {
     font-size: 13px;
   }
+  header {
+    padding: 0 !important;
+  }
+  .sliderN .content {
+    top: 17rem;
+  }
 }
 
 @media screen and (max-width: 351px) {
@@ -787,10 +812,8 @@
   }
 }
 
-
 @media (hover: hover) {
   .galerie_section .gal:hover {
     width: 60vw;
   }
 }
-
